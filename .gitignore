@@ -1,4 +1,5 @@
 node_modules
 **/.gradle
 **/build
+www/static
 package-lock.json
