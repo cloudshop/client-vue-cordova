@@ -54,4 +54,8 @@
         <param name="ios-package" value="HCPPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="HotCodePushLocalDevMode">
+        <param name="ios-package" value="HCPLDPlugin" />
+        <param name="onload" value="true" />
+    </feature>
 </widget>
