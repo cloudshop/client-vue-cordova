@@ -8,6 +8,8 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
+    "android": "npm run build && cordova run android"
+    "ios": "npm run build && cordova run ios"
   },
   "dependencies": {
     "vue": "^2.5.2",
