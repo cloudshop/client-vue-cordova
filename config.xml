@@ -27,4 +27,11 @@
     <engine name="ios" spec="^4.5.4" />
     <plugin name="cordova-hot-code-push-plugin" spec="^1.5.3" />
     <plugin name="cordova-hot-code-push-local-dev-addon" spec="^0.4.2" />
+    <chcp>
+      <auto-download enabled="true" />
+      <auto-install enabled="true" />
+      <config-file url="http://package.grjf365.com/cordova/client/chcp.json" />
+      <!--发布时更改为false,否则更新无法使用。-->
+      <local-development enabled="true" />
+   </chcp>
 </widget>
